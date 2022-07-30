@@ -1,0 +1,33 @@
+@import 'bootstrap';
+
+body, html {
+    height: 100%;
+    background-color: white;
+  }
+
+.parallax {
+    height: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.img1 { background-image: url("dog.jpeg"); }
+.img2 { background-image: url("https://images4.alphacoders.com/936/936378.jpg"); }
+.img3 { background-image: url("https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); }
