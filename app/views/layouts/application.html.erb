@@ -11,13 +11,7 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to 'Home', root_path, class: 'nav-link' %>
-      </li>
-    </ul>
+    <%= render("layouts/navbar") %>
     <%= yield %>
   </body>
 </html>
