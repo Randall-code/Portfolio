@@ -12,7 +12,9 @@ gem "slim"
 
 gem 'sass-rails'
 
-gem 'bootstrap-sass'
+gem 'importmap-rails'
+
+gem 'bootstrap'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
